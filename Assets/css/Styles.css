@@ -19,7 +19,7 @@
 body {
   background-color: rgb(151, 201, 248);
   margin-bottom: 60px;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 #footer {
   position: fixed;
@@ -42,11 +42,13 @@ body {
 .cards {
   border-radius: 20px 20px 20px 20px;
 }
-.comimage {
-  border-radius: 5px 5px 5px 5px;
-  height: 150px;
-  width: 150px;
+.card {
+  border-radius: 20px 20px 20px 20px;
 }
+img {
+  border-radius: 20px 20px 0px 0px;
+}
+
 p {
   font-size: 16px;
 }
@@ -172,4 +174,10 @@ fieldset {
 }
 #dip {
     margin-left: 15%;
+}
+.hm-gradient {
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+.darken-grey-text {
+  color: #2E2E2E;
 }

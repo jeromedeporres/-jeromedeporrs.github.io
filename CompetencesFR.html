@@ -7,70 +7,135 @@
         <link rel="stylesheet" href="Assets/css/Styles.css"/>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     </head>
-        <body>
+        <body class="hm-gradient">
             <div class="container-fluid" id="menubar">
                 <nav class="navbar fixed-top navbar-expand-xl navbar-dark bg-primary">
                   <a class="navbar-brand font-weight-bold text-light">Jérôme DE PORRES</a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#CV" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                <div class="collapse navbar-collapse" id="CV">
-                    <ul class="navbar-nav mr-auto">
-                      <li class="nav-item active"><a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a></li>
-                      <li class="nav-item"><a class="nav-link" href="FormationsFR.html">Formations</a></li>
-                      <li class="nav-item"><a class="nav-link" href="ExperiencesFR.html">Expériences</a></li>
-                      <li class="nav-item"><a class="nav-link" href="CompetencesFR.html">Compétences</a></li>
-                      <li class="nav-item"><a class="nav-link" href="ContactFR.html">Contact</a></li>
-                      <li class="nav-item"><a class="nav-link" href="Assets/Images/CVJeromeDEPORRES.pdf" download>Télécharger Mon CV</a></li>
-                      <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Langues</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown09">
-                          <a class="dropdown-item" href="French.png" title="Français"><img src="Assets/Images/FR.png" height="15px" width="20px"></a>
-                          <a class="dropdown-item" href="English.png" title="English"><img src="Assets/Images/EN.png" height="15px" width="20px"></a>
-                        </div>
-                    </ul>
-                  </div>
+                    <div class="collapse navbar-collapse" id="CV">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active"><a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a></li>
+                            <li class="nav-item"><a class="nav-link" href="FormationsFR.html">Formations</a></li>
+                            <li class="nav-item"><a class="nav-link" href="ExperiencesFR.html">Expériences</a></li>
+                            <li class="nav-item"><a class="nav-link" href="CompetencesFR.html">Compétences</a></li>
+                            <li class="nav-item"><a class="nav-link" href="ContactFR.html">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Assets/Images/CVJeromeDEPORRES.pdf" download>Télécharger Mon CV</a></li>
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Langues</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown09">
+                                <a class="dropdown-item" href="French.png" title="Français"><img src="Assets/Images/FR.png" height="15px" width="20px"></a>
+                                <a class="dropdown-item" href="English.png" title="English"><img src="Assets/Images/EN.png" height="15px" width="20px"></a>
+                                </div>
+                        </ul>
+                    </div>
                 </nav>
-                <div class="container text-center">
-                    <div class="row padding-mobile">
-                  <div class="card-deck">
-                    <div class="card cards col-xl-3 col-md-6 col-xs-12 my-1 mt-3">
-                      <div class="card-body">
-                        <h6 class="card-title">Hypertext Markup Language</h6>
-                      </div>
-                      <img class="card-img-top img-fluid comimage mx-auto" src="Assets/Images/html.png" alt="html">
+            </div>
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <div class="card">
+                            <div class="view overlay hm-white-slight">
+                                <img src="Assets/Images/html.png" class="img-fluid" alt="photo" height="450" width="850">
+                            </div>
+                                <div class="card-body text-center">
+                                    <h4 class="card-title text-center"><strong>HyperText Markup Language</strong> </h4>
+                                    <p class="card-text text-justify">Le HyperText Markup Language, généralement abrégé HTML ou dans sa dernière version HTML5, est le langage de balisage conçu pour représenter les pages web. C’est un langage permettant d’écrire de l’hypertexte, d’où son nom.</p>
+                                    <a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language" class="btn btn-outline-primary waves-effect">+ d'infos</a>
+                                </div>
+                        </div>
                     </div>
-                    <div class="card p-2 cards col-xl-3 col-md-6 col-xs-12 my-1 mt-3">
-                      <div class="card-body">
-                        <h6 class="card-title">Cascading Style Sheets</h6>
-                      </div>
-                      <img class="card-img-top img-fluid comimage mx-auto" src="Assets/Images/css.png" alt="css">
+                        <div class="col-lg-4 col-md-12 mb-4">
+                            <div class="card">
+                                <div class="view overlay hm-white-slight">
+                                    <img src="Assets/Images/css.png" class="img-fluid" alt="photo">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h4 class="card-title text-center"><strong>Cascading Style Sheets</strong></h4>
+                                    <p class="card-text text-justify">Les feuilles de style en cascade1, généralement appelées CSS de l'anglais Cascading Style Sheets, forment un langage informatique qui décrit la présentation des documents HTML et XML. Les standards définissant CSS sont publiés par le World Wide Web Consortium (W3C). Introduit au milieu des années 1990, CSS devient couramment utilisé dans la conception de sites web et bien pris en charge par les navigateurs web dans les années 2000.</p>
+                                    <a href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade" class="btn btn-outline-primary waves-effect">+ d'infos</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 mb-4">
+                            <div class="card">
+                                <div class="view overlay hm-white-slight">
+                                    <img src="Assets/Images/bootstrap.jpg" class="img-fluid" alt="photo">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h4 class="card-title text-center"><strong>Bootstrap [framework]</strong></h4>
+                                    <p class="card-text text-justify">Bootstrap est une collection d'outils utiles à la création du design (graphisme, animation et interactions avec la page dans le navigateur, etc.) de sites et d'applications web. C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs, ainsi que des extensions JavaScript en option. C'est l'un des projets les plus populaires sur la plate-forme de gestion de développement GitHub.</p>
+                                    <a href="https://getbootstrap.com/" class="btn btn-outline-primary waves-effect">+d'infos</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                    <div class="row"> <!-- Nouvelle row -->
+                        <div class="col-md-6 mb-4"> <!-- Grid column -->
+                            <div class="card">
+                                <div class="view overlay hm-white-slight">
+                                    <img src="Assets/Images/js.png" class="img-fluid" alt="photo">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title"><strong>JavaScript</strong></h4>
+                                    <p class="card-text text-justify">JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives mais aussi pour les serveurs avec l'utilisation (par exemple) de Node.js. C'est un langage orienté objet à prototype, c'est-à-dire que les bases du langage et ses principales interfaces sont fournies par des objets qui ne sont pas des instances de classes, mais qui sont chacun équipés de constructeurs permettant de créer leurs propriétés, et notamment une propriété de prototypage qui permet de créer des objets héritiers personnalisés.</p>
+                                    <a href="https://fr.wikipedia.org/wiki/JavaScript" class="btn btn-outline-primary waves-effect">+d'infos</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="card">
+                                <div class="view overlay hm-white-slight">
+                                    <img src="Assets/Images/php.png" class="img-fluid" alt="photo">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title"><strong>PHP: Hypertext Preprocessor</strong></h4>
+                                    <p class="card-text text-justify">PHP: Hypertext Preprocessor, plus connu sous son sigle PHP (sigle auto-référentiel), est un "langage de programmation" libre, principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP, mais pouvant également fonctionner comme n'importe quel langage interprété de façon locale. PHP est un langage impératif orienté objet. PHP a permis de créer un grand nombre de sites web célèbres, comme Facebook et Wikipédia7 Il est considéré comme une des bases de la création de sites web dits dynamiques mais également des applications web</p>
+                                    <a href="https://fr.wikipedia.org/wiki/PHP" class="btn btn-outline-primary waves-effect">+ d'infos</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card p-2 cards col-xl-3 col-md-6 col-xs-12 my-1 mt-3">
-                      <div class="card-body">
-                        <h6 class="card-title">Bootstrap</h6>
-                      </div>
-                      <img class="card-img-top img-fluid comimage mx-auto" src="Assets/Images/bootstrap.jpg" alt="bootstrap">
+                    <div class="row"> <!-- Nouvelle row -->
+                        <div class="col-lg-4 col-md-12 mb-4">
+                            <div class="card elegant-color">
+                                <div class="view overlay hm-white-slight">
+                                    <img src="Assets/Images/MySQL.png" class="img-fluid" alt="Card image cap">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h4 class="card-title white-text py-3"><strong>MySQL</strong></h4>
+                                    <p class="card-text text-justify">MySQL est un système de gestion de bases de données relationnelles (SGBDR). Il est distribué sous une double licence GPL et propriétaire. Il fait partie des logiciels de gestion de base de données les plus utilisés au monde, autant par le grand public (applications web principalement) que par des professionnels, en concurrence avec Oracle, PostgreSQL et Microsoft SQL Server.</p>
+                                    <a href=" https://fr.wikipedia.org/wiki/WordPress" class="btn btn-outline-primary waves-effect">+ d'infos</a>
+                                </div>
+        
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card light-blue">
+                                <div class="view overlay hm-blue-slight">
+                                    <img src="Assets/Images/WordPress.png" class="img-fluid" alt="Card image cap">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h4 class="card-title white-text py-3"><strong>WordPress</strong></h4>
+                                    <p class="card-text text-justify">WordPress est un système de gestion de contenu (SGC ou content management system (CMS) en anglais) gratuit, libre et open-source. Ce logiciel écrit en PHP repose sur une base de données MySQL et est distribué par l'entreprise américaine Automattic.</p>
+                                    <a href="https://fr.wikipedia.org/wiki/WordPress" class="btn btn-outline-primary waves-effect">+ d'infos</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card red">
+                                <div class="view overlay hm-red-slight">
+                                    <img src="Assets/Images/amadeus.png" class="img-fluid" alt="Card image cap">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h4 class="card-title white-text py-3"><strong>Amadeus Altéa Flight Departure Control</strong></h4>
+                                    <p class="card-text text-justify">Simplifier les activités des agents et optimiser chaque possibilité de revenus, de la réservation au décollage. Amadeus Altéa Departure Control - Customer Management se concentre sur les services aux passagers, et fournit un niveau d’automatisation hors-normes dans le cadre des processus clés des aéroports, de l’enregistrement des passagers jusqu’au départ.</p>
+                                    <a href="https://amadeus.com/fr/portfolio/compagnies-aeriennes/amadeus-altea-departure-control-customer-management" class="btn btn-outline-primary waves-effect">+ d'infos</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card p-2 cards col-xl-3 col-md-6 col-xs-12 my-1 mt-3">
-                      <div class="card-body">
-                        <h6 class="card-title">JavaScript</h6>
-                      </div>
-                      <img class="card-img-top img-fluid forimages comimage mx-auto" src="Assets/Images/js.png" alt="js">
-                    </div>
-                    <div class="card p-2 cards col-xl-3 col-md-6 col-xs-12 my-1 mt-3">
-                      <div class="card-body">
-                        <h6 class="card-title">html Hypertext Preprocessor</h6>
-                      </div>
-                      <img class="card-img-top img-fluid forimages comimage mx-auto" src="Assets/Images/html.png" alt="js">
-                    </div>
-                       <div class="card p-2 cards col-xl-3 col-md-6 col-xs-12 my-1 mt-3">
-                      <div class="card-body">
-                        <h6 class="card-title">Amadeus Altéa Departure Control - Flight Management</h6>
-                      </div>
-                      <img class="card-img-top img-fluid forimages comimage mx-auto" src="Assets/Images/amadeus.png" alt="js">
-                    </div>
-                  </div> 
-                    </div>
+            </div>
                 <footer id="footer" class="py-3 text-center">
                     <a href="tel:+33753426517"><i class="fas fa-mobile-alt fa-lg mr-md-5 mr-3"></i></a>
                     <a href="mailto: deporresjerome@yahoo.com"><i class="far fa-envelope fa-lg mr-md-5 mr-3"></i></a>
@@ -82,5 +147,7 @@
                 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
                 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-            </body>
+
+
+        </body>
     </html>
