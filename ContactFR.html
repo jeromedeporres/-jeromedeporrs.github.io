@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CV Jerome DE PORRES</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="Assets/css/Styles.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    </head>
+        <body>
+            <div class="container-fluid" id="menubar">
+                <nav class="navbar fixed-top navbar-expand-xl navbar-dark bg-primary">
+                  <a class="navbar-brand font-weight-bold text-light">Jérôme DE PORRES</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#CV" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="CV">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active"><a class="nav-link" href="index.html">Accueil<span class="sr-only">(current)</span></a></li>
+                      <li class="nav-item"><a class="nav-link" href="FormationsFR.html">Formations</a></li>
+                      <li class="nav-item"><a class="nav-link" href="ExperiencesFR.html">Expériences</a></li>
+                      <li class="nav-item"><a class="nav-link" href="CompetencesFR.html">Compétences</a></li>
+                      <li class="nav-item"><a class="nav-link" href="ContactFR.html">Contact</a></li>
+                      <li class="nav-item"><a class="nav-link" href="Assets/Images/CVJeromeDEPORRES.pdf" download>Télécharger Mon CV</a></li>
+                      <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Langues</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown09">
+                          <a class="dropdown-item" href="French.png" title="Français"><img src="Assets/Images/FR.png" height="15px" width="20px"></a>
+                          <a class="dropdown-item" href="English.png" title="English"><img src="Assets/Images/EN.png" height="15px" width="20px"></a>
+                        </div>
+                    </ul>
+                  </div>
+                </nav>
+                <div class="container-form">
+                <form method="POST" id="contactForm" action="index.php" enctype='multipart/form-data' >
+                  <h3>Formulaire de Contact</h3>
+                  <fieldset>
+                      <label for="lastName">Nom : </label><input required autofocus placeholder="Votre Nom" type="text" id="lastName" name="lastName" />
+                      <label for="firstName">Votre prénom : </label><input type="text" id="firstName" name="firstName" />
+                      <label for="email">E-mail :</label>
+                      <input placeholder="E-mail" type="email"required autofocus>
+                      <label for="tel">Téléphone :</label>
+                      <input placeholder="Téléphone" type="tel"required autofocus>
+                      <label for="Méssage">Votre Méssage :</label>
+                      <textarea placeholder="Votre text ici...." required autofocus></textarea>
+                      <button name="send" type="submit" id="contact-submit">Envoyer</button>  
+                  </fieldset>
+                </form>
+                </div>
+                <footer id="footer" class="py-3 text-center">
+                  <a href="tel:+33753426517"><i class="fas fa-mobile-alt fa-lg mr-md-5 mr-3"></i></a>
+                  <a href="mailto: deporresjerome@yahoo.com"><i class="far fa-envelope fa-lg mr-md-5 mr-3"></i></a>
+                  <a href="https://www.facebook.com/jerome.porres" target="blank"><i class="fab fa-facebook-square fa-lg mr-md-5 mr-3"></i></a>
+                  <a href="https://www.linkedin.com/in/jeromedeporres/" target="_blank"><i class="fab fa-linkedin-in fa-lg mr-md-5 mr-3"></i></a>
+                  <a href="https://www.instagram.com/jeromedeporres/?hl=fr" target="_blank"><i class="fab fa-instagram fa-lg mr-md-5 mr-3"></i></a>
+                  <a href="https://github.com/jeromedeporres" target="_blank"><i class="fab fa-github fa-lg mr-md-5 mr-3"></i></a>
+              </footer>
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+            </body>
+    </html>
