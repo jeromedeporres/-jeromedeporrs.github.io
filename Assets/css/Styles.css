@@ -5,6 +5,9 @@
     font-weight: 500;
     position: 20%;
 }
+.jumbotron {
+  background-color: white;
+}
 .figimage {
     padding-top: 10%;
 }
