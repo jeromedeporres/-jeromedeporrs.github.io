@@ -39,7 +39,7 @@ body {
 
 }
 .forimages {
-  border-radius: 5px 5px 5px 5px;
+ /*  border-radius: 5px 5px 5px 5px; */
   width: 6rem;
 }
 .cards {
@@ -48,9 +48,9 @@ body {
 .card {
   border-radius: 20px 20px 20px 20px;
 }
-img {
+/* img {
   border-radius: 20px 20px 0px 0px;
-}
+} */
 
 p {
   font-size: 16px;
